@@ -20,4 +20,4 @@ def merge(stripped_line, user_input):
     new_string = stripped_line.format(*user_input)
     return new_string
 
-
+welcome()
