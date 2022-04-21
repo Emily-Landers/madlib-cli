@@ -1,13 +1,6 @@
 import re
 
-def welcome_msg():
-    print("welcome to the Code Fellows abyss, user.")
-    user_name = input("My name is Ryuk, may I have yours? >")
-    user(user_name)
-    
-def user(user_name):
-    print(f"Ahhh... {user_name}\n thats a new one...\n I'll have to write that down.")
-    
+        
 with open("assets/dark_and_stormy_template.txt","w") as ds:
     ds.write("It was a {Adjective} and {Adjective} {Noun}.")
 
